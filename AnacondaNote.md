@@ -40,6 +40,8 @@ conda create -n newEnv --clone oldEnv
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 # 注意，simple 不能少, 是 https 而不是 http
 # https://pypi.tuna.tsinghua.edu.cn/simple
+
+conda xxx -c mirror.xxx
 ```
 
 ### 添加镜像
